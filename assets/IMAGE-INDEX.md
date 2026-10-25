@@ -26,3 +26,19 @@
 - ch22 项目二：低压风扇控制器：`images/22.svg` → `images/22.png`，已入章。
 - ch23 项目三：联网状态终端：`images/23.svg` → `images/23.png`，已入章。
 - ch24 从ESP32走向完整系统：`images/24.svg` → `images/24.png`，已入章。
+
+
+## 设备实物图
+
+- `assets/devices/s3-board.jpg`：ESP32-S3-DevKitC-1 实物。作者与授权见 `devices/sources.json`；已入正文。
+- `assets/devices/s3-components.jpg`：S3开发板元件位置。作者与授权见 `devices/sources.json`；已入正文。
+- `assets/devices/s3-pins.jpg`：S3引脚丝印。作者与授权见 `devices/sources.json`；已入正文。
+- `assets/devices/c6-board.jpg`：ESP32-C6-DevKitC-1。作者与授权见 `devices/sources.json`；已入正文。
+- `assets/devices/h2-board.jpg`：ESP32-H2-DevKitM-1。作者与授权见 `devices/sources.json`；已入正文。
+- `assets/devices/p4-board.jpg`：ESP32-P4-Function-EV-Board。作者与授权见 `devices/sources.json`；已入正文。
+- `assets/devices/bme-front.jpg`：BME280传感器模块正面。作者与授权见 `devices/sources.json`；已入正文。
+- `assets/devices/bme-back.jpg`：BME280传感器模块背面。作者与授权见 `devices/sources.json`；已入正文。
+- `assets/devices/bme-pins.jpg`：BME280接口位置。作者与授权见 `devices/sources.json`；已入正文。
+- `assets/devices/oled-front.jpg`：SSD1306单色OLED模块。作者与授权见 `devices/sources.json`；已入正文。
+- `assets/devices/oled-lit.jpg`：OLED实际点亮效果。作者与授权见 `devices/sources.json`；已入正文。
+- `assets/devices/mosfet-board.jpg`：MOSFET低边开关板。作者与授权见 `devices/sources.json`；已入正文。

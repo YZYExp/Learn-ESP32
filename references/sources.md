@@ -149,3 +149,21 @@
 - [资料：Espressif，ESP-BOX](https://github.com/espressif/esp-box)
 - [资料：Espressif，ESP-DL Introduction](https://docs.espressif.com/projects/esp-dl/en/latest/introduction/readme.html)
 - [资料：Espressif，ESP-SR S3 用户指南](https://docs.espressif.com/projects/esp-sr/en/latest/esp32s3/index.html)
+
+
+## 新增设备照片与授权
+
+设备图用于外观识别，接线仍以对应型号资料和章内连接表为准。图片仅缩放、白底处理并转为 JPEG，没有更改器件结构或原有标记。各照片及其技术处理版保留原授权，以下署名不表示原作者认可本书项目。
+
+- **ESP32-S3-DevKitC-1 实物**：Espressif Systems；[来源页](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/user_guide_v1.1.html)；[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)。
+- **S3开发板元件位置**：Espressif Systems；[来源页](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/user_guide_v1.1.html)；[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)。
+- **S3引脚丝印**：Espressif Systems；[来源页](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/user_guide_v1.1.html)；[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)。
+- **ESP32-C6-DevKitC-1**：Espressif Systems；[来源页](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitc-1/user_guide.html)；[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)。
+- **ESP32-H2-DevKitM-1**：Espressif Systems；[来源页](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32h2/esp32-h2-devkitm-1/user_guide.html)；[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)。
+- **ESP32-P4-Function-EV-Board**：Espressif Systems；[来源页](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32p4/esp32-p4-function-ev-board/user_guide.html)；[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)。
+- **BME280传感器模块正面**：Kattni Rembor / Adafruit；[来源页](https://learn.adafruit.com/assets/97111)；[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)。
+- **BME280传感器模块背面**：Kattni Rembor / Adafruit；[来源页](https://learn.adafruit.com/assets/97114)；[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)。
+- **BME280接口位置**：Kattni Rembor / Adafruit；[来源页](https://learn.adafruit.com/assets/97115)；[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)。
+- **SSD1306单色OLED模块**：Kattni Rembor / Adafruit；[来源页](https://learn.adafruit.com/assets/93886)；[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)。
+- **OLED实际点亮效果**：lady ada / Adafruit；[来源页](https://learn.adafruit.com/assets/654)；[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)。
+- **MOSFET低边开关板**：Liz Clark / Adafruit；[来源页](https://learn.adafruit.com/assets/123234)；[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)。

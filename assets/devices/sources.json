@@ -1,0 +1,218 @@
+[
+  {
+    "id": "s3-board",
+    "file": "assets/devices/s3-board.jpg",
+    "title": "ESP32-S3-DevKitC-1 实物",
+    "source_page": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/user_guide_v1.1.html",
+    "image_url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/_images/esp32-s3-devkitc-1-v1.1-isometric.png",
+    "author": "Espressif Systems",
+    "license": "CC BY-SA 4.0",
+    "changes": "仅缩小尺寸、白底扁平化透明背景并转JPEG；未改动器件结构和原有标记",
+    "retrieved": "2026-10-25",
+    "size": [
+      800,
+      695
+    ],
+    "sha256": "9ddb6222a79568588c53f483a183ddb745d7022b1112a04e0333aeb6b01ca788",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "license_source": "https://github.com/espressif/esp-dev-kits#license"
+  },
+  {
+    "id": "s3-components",
+    "file": "assets/devices/s3-components.jpg",
+    "title": "S3开发板元件位置",
+    "source_page": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/user_guide_v1.1.html",
+    "image_url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/_images/ESP32-S3-DevKitC-1_v2-annotated-photo.png",
+    "author": "Espressif Systems",
+    "license": "CC BY-SA 4.0",
+    "changes": "仅缩小尺寸、白底扁平化透明背景并转JPEG；未改动器件结构和原有标记",
+    "retrieved": "2026-10-25",
+    "size": [
+      829,
+      463
+    ],
+    "sha256": "3ac941811abf7f01fc6e6782e1f5cfcac8e9ea5142b2163b5fd67aa15b68f8e8",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "license_source": "https://github.com/espressif/esp-dev-kits#license"
+  },
+  {
+    "id": "s3-pins",
+    "file": "assets/devices/s3-pins.jpg",
+    "title": "S3引脚丝印",
+    "source_page": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/user_guide_v1.1.html",
+    "image_url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/_images/ESP32-S3_DevKitC-1_pinlayout_v1.1.jpg",
+    "author": "Espressif Systems",
+    "license": "CC BY-SA 4.0",
+    "changes": "仅缩小尺寸、白底扁平化透明背景并转JPEG；未改动器件结构和原有标记",
+    "retrieved": "2026-10-25",
+    "size": [
+      1500,
+      1023
+    ],
+    "sha256": "52a0b3db7bbd0b238e0697638e8d713f19f9b478d4b498f26371d1220d2058cc",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "license_source": "https://github.com/espressif/esp-dev-kits#license"
+  },
+  {
+    "id": "c6-board",
+    "file": "assets/devices/c6-board.jpg",
+    "title": "ESP32-C6-DevKitC-1",
+    "source_page": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitc-1/user_guide.html",
+    "image_url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c6/_images/esp32-c6-devkitc-1-isometric_v1.2.png",
+    "author": "Espressif Systems",
+    "license": "CC BY-SA 4.0",
+    "changes": "仅缩小尺寸、白底扁平化透明背景并转JPEG；未改动器件结构和原有标记",
+    "retrieved": "2026-10-25",
+    "size": [
+      587,
+      481
+    ],
+    "sha256": "5dca592ac8f7b5c2e0615191c3b556a4c84cf6546b343c3786b207ee43aed051",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "license_source": "https://github.com/espressif/esp-dev-kits#license"
+  },
+  {
+    "id": "h2-board",
+    "file": "assets/devices/h2-board.jpg",
+    "title": "ESP32-H2-DevKitM-1",
+    "source_page": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32h2/esp32-h2-devkitm-1/user_guide.html",
+    "image_url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32h2/_images/esp32-h2-devkitm-1-45.png",
+    "author": "Espressif Systems",
+    "license": "CC BY-SA 4.0",
+    "changes": "仅缩小尺寸、白底扁平化透明背景并转JPEG；未改动器件结构和原有标记",
+    "retrieved": "2026-10-25",
+    "size": [
+      1500,
+      1106
+    ],
+    "sha256": "d1de639468e9a1880e5588817a89f0e7e8e7ce43726fc7e03d0d9f1208a650c3",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "license_source": "https://github.com/espressif/esp-dev-kits#license"
+  },
+  {
+    "id": "p4-board",
+    "file": "assets/devices/p4-board.jpg",
+    "title": "ESP32-P4-Function-EV-Board",
+    "source_page": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32p4/esp32-p4-function-ev-board/user_guide.html",
+    "image_url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32p4/_images/esp32-p4-function-ev-board-isometric_v1.5.2.png",
+    "author": "Espressif Systems",
+    "license": "CC BY-SA 4.0",
+    "changes": "仅缩小尺寸、白底扁平化透明背景并转JPEG；未改动器件结构和原有标记",
+    "retrieved": "2026-10-25",
+    "size": [
+      1500,
+      1216
+    ],
+    "sha256": "dedf24b9bcca098ec2125861f9a30d44e8d365d5269b31019ce40fecc2b0ee4e",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "license_source": "https://github.com/espressif/esp-dev-kits#license"
+  },
+  {
+    "id": "bme-front",
+    "file": "assets/devices/bme-front.jpg",
+    "title": "BME280传感器模块正面",
+    "source_page": "https://learn.adafruit.com/adafruit-bme280-humidity-barometric-pressure-temperature-sensor-breakout/overview",
+    "image_url": "https://cdn-learn.adafruit.com/assets/assets/000/097/111/medium800/adafruit_products_BME280_top_angle.jpg?1605717573",
+    "author": "Kattni Rembor / Adafruit",
+    "license": "CC BY-SA 3.0",
+    "changes": "仅缩小尺寸、白底扁平化透明背景并转JPEG；未改动器件结构和原有标记",
+    "retrieved": "2026-10-25",
+    "size": [
+      800,
+      600
+    ],
+    "sha256": "b7f8653966060eb94ce9cbd6b0a1b4a7adaf13d49de1d8a98a40dbfb2ac798ba",
+    "asset_page": "https://learn.adafruit.com/assets/97111",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "id": "bme-back",
+    "file": "assets/devices/bme-back.jpg",
+    "title": "BME280传感器模块背面",
+    "source_page": "https://learn.adafruit.com/adafruit-bme280-humidity-barometric-pressure-temperature-sensor-breakout/overview",
+    "image_url": "https://cdn-learn.adafruit.com/assets/assets/000/097/114/medium800/adafruit_products_BME280_bottom.jpg?1605717636",
+    "author": "Kattni Rembor / Adafruit",
+    "license": "CC BY-SA 3.0",
+    "changes": "仅缩小尺寸、白底扁平化透明背景并转JPEG；未改动器件结构和原有标记",
+    "retrieved": "2026-10-25",
+    "size": [
+      800,
+      600
+    ],
+    "sha256": "257a1240553060011b9c77a680989e9ccd8130ea203f36b287a21bb3eebec142",
+    "asset_page": "https://learn.adafruit.com/assets/97114",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "id": "bme-pins",
+    "file": "assets/devices/bme-pins.jpg",
+    "title": "BME280接口位置",
+    "source_page": "https://learn.adafruit.com/adafruit-bme280-humidity-barometric-pressure-temperature-sensor-breakout/pinouts",
+    "image_url": "https://cdn-learn.adafruit.com/assets/assets/000/097/115/medium800/adafruit_products_BME280_pinouts.jpg?1605717746",
+    "author": "Kattni Rembor / Adafruit",
+    "license": "CC BY-SA 3.0",
+    "changes": "仅缩小尺寸、白底扁平化透明背景并转JPEG；未改动器件结构和原有标记",
+    "retrieved": "2026-10-25",
+    "size": [
+      712,
+      509
+    ],
+    "sha256": "9fcb49e7273cdcee26f181d56db62e8e034346346b333136f710e5ee559f39e0",
+    "asset_page": "https://learn.adafruit.com/assets/97115",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "id": "oled-front",
+    "file": "assets/devices/oled-front.jpg",
+    "title": "SSD1306单色OLED模块",
+    "source_page": "https://learn.adafruit.com/monochrome-oled-breakouts/overview",
+    "image_url": "https://cdn-learn.adafruit.com/assets/assets/000/093/886/medium800/adafruit_products_326.jpg?1596746400",
+    "author": "Kattni Rembor / Adafruit",
+    "license": "CC BY-SA 3.0",
+    "changes": "仅缩小尺寸、白底扁平化透明背景并转JPEG；未改动器件结构和原有标记",
+    "retrieved": "2026-10-25",
+    "size": [
+      800,
+      615
+    ],
+    "sha256": "0437b2447dce42c4aec4d80cb89c36afc51c42d0c1fc21594a84bc94321d02d2",
+    "asset_page": "https://learn.adafruit.com/assets/93886",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "id": "oled-lit",
+    "file": "assets/devices/oled-lit.jpg",
+    "title": "OLED实际点亮效果",
+    "source_page": "https://learn.adafruit.com/monochrome-oled-breakouts/overview",
+    "image_url": "https://cdn-learn.adafruit.com/assets/assets/000/000/654/medium800/lcds___displays_oledlorem.jpg?1396764781",
+    "author": "lady ada / Adafruit",
+    "license": "CC BY-SA 3.0",
+    "changes": "仅缩小尺寸、白底扁平化透明背景并转JPEG；未改动器件结构和原有标记",
+    "retrieved": "2026-10-25",
+    "size": [
+      800,
+      615
+    ],
+    "sha256": "76735cd6b9d41b8a538f7bb48c03ab800b074e9a8a8d65af6b142b83256080f2",
+    "asset_page": "https://learn.adafruit.com/assets/654",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "id": "mosfet-board",
+    "file": "assets/devices/mosfet-board.jpg",
+    "title": "MOSFET低边开关板",
+    "source_page": "https://learn.adafruit.com/adafruit-mosfet-driver/overview",
+    "image_url": "https://cdn-learn.adafruit.com/assets/assets/000/123/234/medium800/adafruit_products_5648-04.jpg?1690986365",
+    "author": "Liz Clark / Adafruit",
+    "license": "CC BY-SA 3.0",
+    "changes": "仅缩小尺寸、白底扁平化透明背景并转JPEG；未改动器件结构和原有标记",
+    "retrieved": "2026-10-25",
+    "size": [
+      800,
+      600
+    ],
+    "sha256": "ff3d8dd52c040d4b443bfd293ddbcb31c6a158089a65eee32ce07fd3f4a318fc",
+    "asset_page": "https://learn.adafruit.com/assets/123234",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+  }
+]

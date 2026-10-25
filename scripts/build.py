@@ -2,14 +2,16 @@
 from pathlib import Path
 import json,re,subprocess,zipfile,hashlib
 ROOT=Path(__file__).resolve().parents[1];BUILD=ROOT/'build';BUILD.mkdir(exist_ok=True)
-book=json.loads((ROOT/'book.json').read_text());texts=[];errors=[]
+book=json.loads((ROOT/'book.json').read_text());texts=[];errors=[];referenced_images=set()
 for ch in book['chapters']:
  p=ROOT/ch['source']
  if not p.exists():errors.append(f'missing {p}');continue
  s=p.read_text()
  if s.count('```')%2:errors.append(f'unclosed code fence: {p}')
  for target in re.findall(r'!\[[^\]]*\]\(([^)]+)\)',s):
-  if not (p.parent/target).exists():errors.append(f'missing image: {target}')
+  asset=(p.parent/target).resolve()
+  if not asset.exists():errors.append(f'missing image: {target}')
+  else:referenced_images.add(asset)
  if not re.search(r'https://',s):errors.append(f'no source: {p}')
  if len(re.findall(r'[\u4e00-\u9fff]',s))<900:errors.append(f'too short: {p}')
  s=re.sub(r'(?<!!)\[([^\]]+)\]\(\.\./(examples/[^)]+)\)', lambda m: '`'+m.group(2)+'`', s)
@@ -27,7 +29,7 @@ temp.unlink()
 with zipfile.ZipFile(BUILD/'ESP32-Atlas.epub') as z:
  images=[n for n in z.namelist() if n.startswith('EPUB/media/')]
  xhtml=[n for n in z.namelist() if n.endswith('.xhtml')]
- if len(images)!=24:raise SystemExit(f'Expected 24 packaged images, got {len(images)}')
+ if len(images)!=len(referenced_images):raise SystemExit(f'Expected {len(referenced_images)} packaged images, got {len(images)}')
  if len(xhtml)<24:raise SystemExit('Insufficient chapter documents')
-report={'chapters':len(texts),'chinese_characters':len(re.findall(r'[\u4e00-\u9fff]',merged)),'figures':24,'epub_packaged_images':len(images),'code_validation':'static review only; no toolchain compilation or physical board execution','hardware':'ESP32-S3-DevKitC-1; Arduino-ESP32 3.x; confirm actual board and library versions'}
+report={'chapters':len(texts),'chinese_characters':len(re.findall(r'[\u4e00-\u9fff]',merged)),'figures':len(referenced_images),'epub_packaged_images':len(images),'code_validation':'static review only; no toolchain compilation or physical board execution','hardware':'ESP32-S3-DevKitC-1; Arduino-ESP32 3.x; confirm actual board and library versions'}
 (BUILD/'validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));print(json.dumps(report,ensure_ascii=False,indent=2))

@@ -2,7 +2,7 @@
 
 电路、程序、连接与可验证的小项目
 
-24 章中文图解读本，以 ESP32-S3 为主要实验平台，从电路与代码扩展到传感器、连接、并发、存储、功耗、安全和完整项目。
+24 章中文图解读本（24 幅原理图解 + 12 幅设备实物参照），以 ESP32-S3 为主要实验平台，从电路与代码扩展到传感器、连接、并发、存储、功耗、安全和完整项目。
 
 ## 阅读
 
@@ -75,3 +75,7 @@ python scripts/build_site.py --base-path /Learn-ESP32/
 ```
 
 产物为 `build/site/`。网页仅依赖 Python 和 Markdown，校验全部内部链接与锚点，直接复制已交付的 EPUB；不安装或运行 Pandoc、Inkscape、Arduino 工具链。PR 只构建检查，main 推送构建并部署。首次发布需在仓库 Settings → Pages 中选择 GitHub Actions。EPUB 重新导出仍单独运行 `scripts/build.py`，不会阻塞网页更新。
+
+## 设备图更新
+
+补充 S3 开发板外观与元件/引脚图、C6/H2/P4 开发板、BME280 正反面与接口、OLED 实物与点亮效果、MOSFET 驱动模块。每幅均有中文观察说明、型号差异和来源署名。原图及授权逐项记录在 `assets/devices/sources.json`；网页与EPUB使用同一套章节与本地图片。
