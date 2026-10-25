@@ -6,6 +6,8 @@
 
 ## 阅读
 
+[下载整本 EPUB](editions/ESP32-Atlas.epub) · [GitHub 仓库](https://github.com/YZYExp/Learn-ESP32)
+
 - [导读与实验边界](appendices/reading-guide.md)
 - [术语与实验记录](appendices/glossary.md)
 - [参考资料索引](references/sources.md)
@@ -63,4 +65,4 @@ python3 scripts/draw.py
 
 ## 交付与版本
 
-工程包包含 `.git` 历史、分章 Markdown、SVG/PNG 图解、七组示例、来源与构建脚本，以及已经构建的 EPUB。首次提交仅含零字节 README，后续按结构、正文与成品验证叠加提交。尚未指定远端，因此没有推送 GitHub。
+完整工程包保留 Git 历史、分章 Markdown、SVG/PNG 图解、七组示例、来源与构建脚本；仓库另提供已构建的 EPUB。首次提交仅含零字节 README，后续按结构、正文与成品验证叠加提交。远端为 `https://github.com/YZYExp/Learn-ESP32.git`，默认分支 `main`。仓库提供分章阅读与 `editions/ESP32-Atlas.epub` 阅读版；当前未部署网站。
