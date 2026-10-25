@@ -1,0 +1,152 @@
+{
+  "title": "从 ESP32 看懂嵌入式世界",
+  "subtitle": "电路、程序、连接与可验证的小项目",
+  "language": "zh-CN",
+  "date": "2026-10-25",
+  "chapters": [
+    {
+      "id": "ch01",
+      "title": "从一块板看嵌入式世界",
+      "source": "chapters/01.md",
+      "slug": "chapter-01"
+    },
+    {
+      "id": "ch02",
+      "title": "ESP32家族与板卡选择",
+      "source": "chapters/02.md",
+      "slug": "chapter-02"
+    },
+    {
+      "id": "ch03",
+      "title": "电路、供电与测量",
+      "source": "chapters/03.md",
+      "slug": "chapter-03"
+    },
+    {
+      "id": "ch04",
+      "title": "从源码到第一次运行",
+      "source": "chapters/04.md",
+      "slug": "chapter-04"
+    },
+    {
+      "id": "ch05",
+      "title": "GPIO、按钮与状态机",
+      "source": "chapters/05.md",
+      "slug": "chapter-05"
+    },
+    {
+      "id": "ch06",
+      "title": "模拟量、ADC与PWM",
+      "source": "chapters/06.md",
+      "slug": "chapter-06"
+    },
+    {
+      "id": "ch07",
+      "title": "UART、I2C与SPI",
+      "source": "chapters/07.md",
+      "slug": "chapter-07"
+    },
+    {
+      "id": "ch08",
+      "title": "传感器与数据可信度",
+      "source": "chapters/08.md",
+      "slug": "chapter-08"
+    },
+    {
+      "id": "ch09",
+      "title": "屏幕、灯光与人机交互",
+      "source": "chapters/09.md",
+      "slug": "chapter-09"
+    },
+    {
+      "id": "ch10",
+      "title": "电机、驱动与机械动作",
+      "source": "chapters/10.md",
+      "slug": "chapter-10"
+    },
+    {
+      "id": "ch11",
+      "title": "Wi-Fi与网络基础",
+      "source": "chapters/11.md",
+      "slug": "chapter-11"
+    },
+    {
+      "id": "ch12",
+      "title": "HTTP、MQTT与数据接口",
+      "source": "chapters/12.md",
+      "slug": "chapter-12"
+    },
+    {
+      "id": "ch13",
+      "title": "蓝牙与近距离连接",
+      "source": "chapters/13.md",
+      "slug": "chapter-13"
+    },
+    {
+      "id": "ch14",
+      "title": "Thread、Zigbee与Matter",
+      "source": "chapters/14.md",
+      "slug": "chapter-14"
+    },
+    {
+      "id": "ch15",
+      "title": "FreeRTOS与并发",
+      "source": "chapters/15.md",
+      "slug": "chapter-15"
+    },
+    {
+      "id": "ch16",
+      "title": "存储、时间与离线运行",
+      "source": "chapters/16.md",
+      "slug": "chapter-16"
+    },
+    {
+      "id": "ch17",
+      "title": "电池、睡眠与功耗预算",
+      "source": "chapters/17.md",
+      "slug": "chapter-17"
+    },
+    {
+      "id": "ch18",
+      "title": "调试、测试与故障定位",
+      "source": "chapters/18.md",
+      "slug": "chapter-18"
+    },
+    {
+      "id": "ch19",
+      "title": "安全、配网与OTA",
+      "source": "chapters/19.md",
+      "slug": "chapter-19"
+    },
+    {
+      "id": "ch20",
+      "title": "从面包板到可靠硬件",
+      "source": "chapters/20.md",
+      "slug": "chapter-20"
+    },
+    {
+      "id": "ch21",
+      "title": "项目一：环境记录器",
+      "source": "chapters/21.md",
+      "slug": "chapter-21"
+    },
+    {
+      "id": "ch22",
+      "title": "项目二：低压风扇控制器",
+      "source": "chapters/22.md",
+      "slug": "chapter-22"
+    },
+    {
+      "id": "ch23",
+      "title": "项目三：联网状态终端",
+      "source": "chapters/23.md",
+      "slug": "chapter-23"
+    },
+    {
+      "id": "ch24",
+      "title": "从ESP32走向完整系统",
+      "source": "chapters/24.md",
+      "slug": "chapter-24"
+    }
+  ]
+}
