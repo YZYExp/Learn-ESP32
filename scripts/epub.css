@@ -1,0 +1,9 @@
+body { font-family: sans-serif; line-height: 1.75; }
+h1 { color: #087e83; line-height: 1.4; }
+h2 { color: #20384a; margin-top: 1.6em; }
+img { max-width:100%; height:auto; }
+pre { white-space: pre-wrap; overflow-wrap: anywhere; font-size: .8em; background: #f2f5f7; padding:.6em; }
+code { font-family: monospace; }
+table { border-collapse:collapse; font-size:.9em; width:100%; }
+th,td { border:1px solid #b9cbd1; padding:.35em; text-align:left; }
+a { color:#087e83; overflow-wrap:anywhere; }
