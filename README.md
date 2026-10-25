@@ -6,7 +6,7 @@
 
 ## 阅读
 
-[下载整本 EPUB](editions/ESP32-Atlas.epub) · [GitHub 仓库](https://github.com/YZYExp/Learn-ESP32)
+[在线阅读](https://yzyexp.github.io/Learn-ESP32/) · [下载整本 EPUB](editions/ESP32-Atlas.epub) · [GitHub 仓库](https://github.com/YZYExp/Learn-ESP32)
 
 - [导读与实验边界](appendices/reading-guide.md)
 - [术语与实验记录](appendices/glossary.md)
@@ -61,8 +61,17 @@ python3 scripts/build.py
 python3 scripts/draw.py
 ```
 
-该绘图命令会覆盖图解；普通构建无需执行。`book.json` 是章节标题、顺序和稳定路径的唯一清单，为后续主页发布保留结构；当前未生成或部署网站。
+该绘图命令会覆盖图解；普通构建无需执行。`book.json` 是章节标题、顺序和稳定路径的唯一清单，为后续主页发布保留结构；网页直接消费同一份主稿。
 
 ## 交付与版本
 
-完整工程包保留 Git 历史、分章 Markdown、SVG/PNG 图解、七组示例、来源与构建脚本；仓库另提供已构建的 EPUB。首次提交仅含零字节 README，后续按结构、正文与成品验证叠加提交。远端为 `https://github.com/YZYExp/Learn-ESP32.git`，默认分支 `main`。仓库提供分章阅读与 `editions/ESP32-Atlas.epub` 阅读版；当前未部署网站。
+完整工程包保留 Git 历史、分章 Markdown、SVG/PNG 图解、七组示例、来源与构建脚本；仓库另提供已构建的 EPUB。首次提交仅含零字节 README，后续按结构、正文与成品验证叠加提交。远端为 `https://github.com/YZYExp/Learn-ESP32.git`，默认分支 `main`。仓库提供分章阅读与 `editions/ESP32-Atlas.epub` 阅读版；网站由独立 GitHub Actions 流程部署到 GitHub Pages。
+
+## 网站与发布 CI
+
+```bash
+python -m pip install -r site/requirements.txt
+python scripts/build_site.py --base-path /Learn-ESP32/
+```
+
+产物为 `build/site/`。网页仅依赖 Python 和 Markdown，校验全部内部链接与锚点，直接复制已交付的 EPUB；不安装或运行 Pandoc、Inkscape、Arduino 工具链。PR 只构建检查，main 推送构建并部署。首次发布需在仓库 Settings → Pages 中选择 GitHub Actions。EPUB 重新导出仍单独运行 `scripts/build.py`，不会阻塞网页更新。
